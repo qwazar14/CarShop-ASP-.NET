@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using GoshaDudarExampleShop.Data.Interfaces;
+using GoshaDudarExampleShop.Data.Mocks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -15,7 +17,8 @@ namespace GoshaDudarExampleShop
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            services.AddTransient<ICategory, MockCategory>();
+            services.AddTransient<ICar, MockCar>();
             services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 

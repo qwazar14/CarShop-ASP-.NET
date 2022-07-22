@@ -3,9 +3,9 @@ using GoshaDudarExampleShop.Data.Models;
 
 namespace GoshaDudarExampleShop.Data.Interfaces
 {
-    public interface IAllCars
+    public interface ICar
     {
-        IEnumerable<Car> Cars { get; }
+        IEnumerable<Car> GetAllCars { get; }
         IEnumerable<Car> GetFavouriteCars { get; set; }
         Car GetCarById(int carId);
     }

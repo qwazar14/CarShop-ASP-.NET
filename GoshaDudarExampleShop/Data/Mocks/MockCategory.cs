@@ -4,7 +4,7 @@ using GoshaDudarExampleShop.Data.Models;
 
 namespace GoshaDudarExampleShop.Data.Mocks
 {
-    public class MockCategory : ICarsCategory
+    public class MockCategory : ICategory
     {
         public IEnumerable<Category> AllCategories =>
             new List<Category>

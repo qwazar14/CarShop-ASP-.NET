@@ -3,7 +3,7 @@ using GoshaDudarExampleShop.Data.Models;
 
 namespace GoshaDudarExampleShop.Data.Interfaces
 {
-    public interface ICarsCategory
+    public interface ICategory
     {
         IEnumerable<Category> AllCategories { get; }
     }
