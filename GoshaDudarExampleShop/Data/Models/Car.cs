@@ -12,7 +12,7 @@
 
         public string ImgPath { get; set; }
 
-        public uint Price { get; set; }
+        public int Price { get; set; }
 
         public bool IsFavourite { get; set; }
 

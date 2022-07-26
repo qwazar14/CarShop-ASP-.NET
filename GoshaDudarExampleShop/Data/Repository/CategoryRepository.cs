@@ -6,9 +6,9 @@ namespace GoshaDudarExampleShop.Data.Repository
 {
     public class CategoryRepository : ICategory
     {
-        private readonly ApplicationDbContext _applicationDbContext;
+        private readonly ApplicationDbContent _applicationDbContent;
 
-        public CategoryRepository(ApplicationDbContext applicationDbContext) => _applicationDbContext = applicationDbContext;
-        public IEnumerable<Category> AllCategories => _applicationDbContext.Category;
+        public CategoryRepository(ApplicationDbContent applicationDbContent) => _applicationDbContent = applicationDbContent;
+        public IEnumerable<Category> AllCategories => _applicationDbContent.Category;
     }
 }

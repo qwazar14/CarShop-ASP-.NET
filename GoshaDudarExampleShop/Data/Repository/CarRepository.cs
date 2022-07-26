@@ -8,15 +8,15 @@ namespace GoshaDudarExampleShop.Data.Repository
 {
     public class CarRepository : ICar
     {
-        private readonly ApplicationDbContext _applicationDbContext;
+        private readonly ApplicationDbContent _applicationDbContent;
 
-        public CarRepository(ApplicationDbContext applicationDbContext) => _applicationDbContext = applicationDbContext;
+        public CarRepository(ApplicationDbContent applicationDbContent) => _applicationDbContent = applicationDbContent;
 
-        public IEnumerable<Car> GetAllCars => _applicationDbContext.Car.Include(car => car.Category);
+        public IEnumerable<Car> GetAllCars => _applicationDbContent.Car.Include(car => car.Category);
 
         public IEnumerable<Car> GetFavouriteCars =>
-            _applicationDbContext.Car.Where(c => c.IsFavourite).Include(car => car.Category);
+            _applicationDbContent.Car.Where(c => c.IsFavourite).Include(car => car.Category);
 
-        public Car GetCarById(int carId) => _applicationDbContext.Car.FirstOrDefault(car => car.Id==carId);
+        public Car GetCarById(int carId) => _applicationDbContent.Car.FirstOrDefault(car => car.Id==carId);
     }
 }

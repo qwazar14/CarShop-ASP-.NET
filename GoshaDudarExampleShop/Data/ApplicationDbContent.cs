@@ -3,13 +3,17 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GoshaDudarExampleShop.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContent : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        public ApplicationDbContent(DbContextOptions<ApplicationDbContent> options) : base(options)
         {
         }        
         public DbSet<Car> Car { get; set; }
         public DbSet<Category> Category { get; set; }
+
+        public DbSet<ShopCartItem> ShopCartItem { get; set; }
+        
+        public DbSet<ShopCart> ShopCart { get; set; }
         
         
     }

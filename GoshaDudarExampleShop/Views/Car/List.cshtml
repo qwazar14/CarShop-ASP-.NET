@@ -1,20 +1,10 @@
-﻿@using System.Globalization
-<h1>All cars</h1>
+﻿<h1>All cars</h1>
 <h3>@Model.currentCategory</h3>
 <div class="row mt-5 mb-2">
     @{
-        var nfi = new CultureInfo( "en-US", false ).NumberFormat;
-        foreach (var car in Model.AllCars)
+        foreach (Car car in Model.AllCars)
         {
-            <div class="col-lg-4">
-                <img class="img-thumbnail" src="@car.ImgPath" alt="@car.Name"/>
-                <h2>Model: @car.Name</h2>
-                <p>Price: @car.Price.ToString("C0", nfi)</p>
-                <p>@car.ShortDesc</p>
-                <p>
-                    <a class="btn btn-warning" href="#">More</a>
-                </p>
-            </div>
+            @await Html.PartialAsync("AllCars", car)
         }
     }
 </div>

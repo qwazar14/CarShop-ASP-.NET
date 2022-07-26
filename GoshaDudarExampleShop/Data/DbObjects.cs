@@ -8,18 +8,18 @@ namespace GoshaDudarExampleShop.Data;
 
 public static class DbObjects
 {
-    public static void Initialize(ApplicationDbContext context)
+    public static void Initialize(ApplicationDbContent content)
     {
-        context.Database.EnsureCreated();
+        content.Database.EnsureCreated();
 
-        if (!context.Category.Any())
+        if (!content.Category.Any())
         {
-            context.Category.AddRange(Categories.Select(c => c.Value));
+            content.Category.AddRange(Categories.Select(c => c.Value));
         }
 
-        if (!context.Car.Any())
+        if (!content.Car.Any())
         {
-            context.AddRange(
+            content.AddRange(
                 new Car
                 {
                     Name = "Tesla Model X",
@@ -100,7 +100,7 @@ public static class DbObjects
             );
         }
 
-        context.SaveChanges();
+        content.SaveChanges();
     }
 
     private static Dictionary<string, Category> categories;

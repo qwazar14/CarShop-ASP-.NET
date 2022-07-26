@@ -6,33 +6,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f52e0c40-b5f0-496c-a74a-4ecad2141a07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GoshaDudarExampleShop/.idea/dictionaries/zenez_000.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GoshaDudarExampleShop/.idea/efCoreCommonOptions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GoshaDudarExampleShop/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/GoshaDudarExampleShop/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/GoshaDudarExampleShop/FileContentIndex/0a40074c-7c2b-4c85-b463-52b2c4cb1d75.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/GoshaDudarExampleShop/FileContentIndex/def5ca83-e8ee-49df-b5c8-8137c5faabd3.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/GoshaDudarExampleShop/FileContentIndex/f9e1160e-a2fb-4537-9c5f-008942ed01a8.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/GoshaDudarExampleShop/FileContentIndex/read.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/GoshaDudarExampleShop/v17/.futdcache.v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/GoshaDudarExampleShop/v17/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/goshadudarexampleshop.metadata.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/goshadudarexampleshop.projects.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/DbObjects.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Repository/CarRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Repository/CategoryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220725154015_Initial.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220725154015_Initial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/dbsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuget.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Interfaces/ICar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Interfaces/ICar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Controllers/ShopCartController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Models/ShopCart.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Models/ShopCartItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220726110152_Cart.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220726110152_Cart.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/ViewModels/ShopCartViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/AllCars.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/AllCars.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/ShopCart/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoshaDudarExampleShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoshaDudarExampleShop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/ApplicationDbContent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/DbObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/DbObjects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Models/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Models/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Repository/CarRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Repository/CarRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Repository/CategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Repository/CategoryRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/GoshaDudarExampleShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/GoshaDudarExampleShop.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220725154015_Initial.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220725154015_Initial.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Car/List.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Car/List.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/wwwroot/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/wwwroot/css/bootstrap.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +51,14 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/947cfa9e93c54d218ee6cd975672a1f891cf78/90/afdd93b6/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9f3f2539caf1d1d3bc962f51b12a49523c53a6a135dd252df0b23b14b3515df/EntityFrameworkServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c3f4f0bd3d464006826119c7cd9ecc5a7578/_937a2/IHostingEnvironment.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GoshaDudarExampleShop/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoshaDudarExampleShop/Data/ApplicationDbContent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GoshaDudarExampleShop/Startup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="SWEA" />
   </component>
   <component name="ProjectId" id="2CIJFTE417xknyQbGyB8WGxrz15" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -72,26 +68,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "RiderNuGetOptionsPageId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "sqlserver.localdb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;sqlserver.localdb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.GoshaDudarExampleShop: IIS Express">
     <configuration name="GoshaDudarExampleShop" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/GoshaDudarExampleShop/GoshaDudarExampleShop.csproj" />
@@ -150,7 +146,9 @@
       <workItem from="1658753821302" duration="1116000" />
       <workItem from="1658755163338" duration="631000" />
       <workItem from="1658755855286" duration="1005000" />
-      <workItem from="1658759263277" duration="7041000" />
+      <workItem from="1658759263277" duration="9102000" />
+      <workItem from="1658771130951" duration="677000" />
+      <workItem from="1658828484755" duration="3997000" />
     </task>
     <task id="LOCAL-00001" summary="Project Created">
       <created>1658484260409</created>
@@ -187,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658509368879</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson #6 - Фреймворк Entity. Работа с базой данных">
+      <created>1658769195989</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658769195989</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +219,8 @@
     <MESSAGE value="Lesson #3 - Создание моделей и интерфейсов в ASP.NET" />
     <MESSAGE value="Lesson #4 - Создание контроллеров и HTML шаблонов" />
     <MESSAGE value="Lesson #5 - Добавление Bootstrap 4 и фото на сайт" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson #5 - Добавление Bootstrap 4 и фото на сайт" />
+    <MESSAGE value="Lesson #6 - Фреймворк Entity. Работа с базой данных" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson #6 - Фреймворк Entity. Работа с базой данных" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
