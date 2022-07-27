@@ -1,17 +1,14 @@
 ﻿@model Car
 
 @{
-    var nfi = new CultureInfo( "en-US", false ).NumberFormat;
-
+    var nfi = new CultureInfo("en-US", false).NumberFormat;
 }
 <div class="col-lg-4">
-                <img class="img-thumbnail" src="@Model.ImgPath" alt="@Model.Name"/>
-                <h2>Model: @Model.Name</h2>
-                <p>Price: @Model.Price.ToString("C0", nfi)</p>
-                <p>@Model.ShortDesc</p>
-                <p>
-                    <a class="btn btn-warning" href="#">More</a>
-                </p>
-            </div>
-
-
+    <img class="img-thumbnail" src="@Model.ImgPath" alt="@Model.Name"/>
+    <h2>Model: @Model.Name</h2>
+    <p>Price: @Model.Price.ToString("C0", nfi)</p>
+    <p>@Model.ShortDesc</p>
+    <p>
+        <a class="btn btn-warning" href="#">More</a>
+    </p>
+</div>

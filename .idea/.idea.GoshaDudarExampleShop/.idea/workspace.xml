@@ -6,29 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f52e0c40-b5f0-496c-a74a-4ecad2141a07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Controllers/ShopCartController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Models/ShopCart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Models/ShopCartItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220726110152_Cart.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220726110152_Cart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/ViewModels/ShopCartViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/AllCars.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/AllCars.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/ShopCart/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220727145806_FavCars.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220727145806_FavCars.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/ViewModels/HomeViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoshaDudarExampleShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoshaDudarExampleShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/ApplicationDbContent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/DbObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/DbObjects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Models/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Models/Car.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Repository/CarRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Repository/CarRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Repository/CategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Data/Repository/CategoryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/GoshaDudarExampleShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/GoshaDudarExampleShop.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220725154015_Initial.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220725154015_Initial.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/GoshaDudarExampleShop.csproj.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/GoshaDudarExampleShop.csproj.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Car/List.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Car/List.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/AllCars.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/AllCars.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/wwwroot/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/wwwroot/css/bootstrap.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +136,9 @@
       <workItem from="1658755855286" duration="1005000" />
       <workItem from="1658759263277" duration="9102000" />
       <workItem from="1658771130951" duration="677000" />
-      <workItem from="1658828484755" duration="3997000" />
+      <workItem from="1658828484755" duration="4642000" />
+      <workItem from="1658921186700" duration="189000" />
+      <workItem from="1658929758314" duration="2986000" />
     </task>
     <task id="LOCAL-00001" summary="Project Created">
       <created>1658484260409</created>
@@ -192,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658769195989</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lesson #7 - Создание корзины для покупок на сайте">
+      <created>1658835945398</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658835945398</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +217,8 @@
     <MESSAGE value="Lesson #4 - Создание контроллеров и HTML шаблонов" />
     <MESSAGE value="Lesson #5 - Добавление Bootstrap 4 и фото на сайт" />
     <MESSAGE value="Lesson #6 - Фреймворк Entity. Работа с базой данных" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson #6 - Фреймворк Entity. Работа с базой данных" />
+    <MESSAGE value="Lesson #7 - Создание корзины для покупок на сайте" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson #7 - Создание корзины для покупок на сайте" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

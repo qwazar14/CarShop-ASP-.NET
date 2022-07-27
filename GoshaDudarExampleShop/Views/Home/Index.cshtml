@@ -1,0 +1,11 @@
+﻿@model HomeViewModel
+
+<h1>Favourite Cars</h1>
+<div class="row mt-5 mb-2">
+    @{
+        foreach (var car in Model.FavouriteCars)
+        {
+            @await Html.PartialAsync("AllCars", car)
+        }
+    }
+</div>
