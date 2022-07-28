@@ -1,9 +1,14 @@
-﻿using GoshaDudarExampleShop.Data.Interfaces;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using GoshaDudarExampleShop.Data.Interfaces;
+using GoshaDudarExampleShop.Data.Models;
 using GoshaDudarExampleShop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GoshaDudarExampleShop.Controllers
 {
+    [Route("Cars/List")]
     public class CarController : Controller
     {
         // // GET
@@ -20,15 +25,39 @@ namespace GoshaDudarExampleShop.Controllers
             _categories = categories;
         }
 
-        public ViewResult List()
+        [Route("")]
+        [Route("{category}")]
+        public ViewResult List(string category)
         {
-            ViewBag.Title = "Car List";
-            var obj = new CarListViewModel
+            string _category = string.Empty;
+            IEnumerable<Car> cars = null;
+            var currentCategory = string.Empty;
+            if (string.IsNullOrEmpty(category))
             {
-                AllCars = _cars.GetAllCars,
-                currentCategory = "Cars"
+                cars = _cars.GetAllCars.OrderBy(i => i.Id);
+            }
+            else
+            {
+                if (string.Equals("electro", category, StringComparison.OrdinalIgnoreCase))
+                {
+                    cars = _cars.GetAllCars.Where(i => i.Category.CategoryName.Equals("Электромобиль"))
+                        .OrderBy(i => i.Id);
+                }
+                else if (string.Equals("petrol", category, StringComparison.OrdinalIgnoreCase))
+                {
+                    cars = _cars.GetAllCars.Where(i => i.Category.CategoryName.Equals("ДВС автомобиль"))
+                        .OrderBy(i => i.Id);
+                }
+
+                currentCategory = _category;
+            }
+
+            var carObj = new CarListViewModel
+            {
+                AllCars = cars,
+                currentCategory = currentCategory
             };
-            return View(obj);
+            return View(carObj);
         }
     }
 }

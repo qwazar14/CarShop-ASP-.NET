@@ -6,17 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f52e0c40-b5f0-496c-a74a-4ecad2141a07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220727145806_FavCars.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/20220727145806_FavCars.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/ViewModels/HomeViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoshaDudarExampleShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoshaDudarExampleShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/GoshaDudarExampleShop.csproj.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/GoshaDudarExampleShop.csproj.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Car/List.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Car/List.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/AllCars.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/AllCars.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Controllers/CarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Controllers/CarController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoshaDudarExampleShop/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoshaDudarExampleShop/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +28,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3a07d742286443bba92ab7c1d69faf1e19480/3d/b9aa416b/WebApplication.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49210e6927ed42c88a2888cf22a4576d3ac90/51/6f05d391/RazorPage`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/947cfa9e93c54d218ee6cd975672a1f891cf78/90/afdd93b6/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9c4e4632055744e38d810dc19fd740281cb880/9a/17fe0d21/MvcApplicationBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ebd09ac25b1a45b08ac7085953c8ac1dae88/00/f5f3ab4c/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9f3f2539caf1d1d3bc962f51b12a49523c53a6a135dd252df0b23b14b3515df/EntityFrameworkServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c3f4f0bd3d464006826119c7cd9ecc5a7578/_937a2/IHostingEnvironment.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GoshaDudarExampleShop/Data/ApplicationDbContent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,7 +42,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="SWEA" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2CIJFTE417xknyQbGyB8WGxrz15" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -66,7 +62,7 @@
     &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -138,7 +134,7 @@
       <workItem from="1658771130951" duration="677000" />
       <workItem from="1658828484755" duration="4642000" />
       <workItem from="1658921186700" duration="189000" />
-      <workItem from="1658929758314" duration="2986000" />
+      <workItem from="1658929758314" duration="9776000" />
     </task>
     <task id="LOCAL-00001" summary="Project Created">
       <created>1658484260409</created>
@@ -189,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658835945398</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Lesson #8 - Главная страница сайта">
+      <created>1658934289626</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658934289626</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +221,8 @@
     <MESSAGE value="Lesson #5 - Добавление Bootstrap 4 и фото на сайт" />
     <MESSAGE value="Lesson #6 - Фреймворк Entity. Работа с базой данных" />
     <MESSAGE value="Lesson #7 - Создание корзины для покупок на сайте" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson #7 - Создание корзины для покупок на сайте" />
+    <MESSAGE value="Lesson #8 - Главная страница сайта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson #8 - Главная страница сайта" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

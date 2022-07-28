@@ -7,6 +7,7 @@ using GoshaDudarExampleShop.Data.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.Extensions.Configuration;
@@ -36,10 +37,10 @@ namespace GoshaDudarExampleShop
             // services.AddTransient<ICategory, MockCategory>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            services.AddScoped(sp => ShopCart.GetCart(sp));
-            
+            services.AddScoped(ShopCart.GetCart);
+
             services.AddMvc(options => options.EnableEndpointRouting = false);
-            
+
             services.AddMemoryCache();
             services.AddSession();
         }
@@ -50,14 +51,22 @@ namespace GoshaDudarExampleShop
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseSession();
-            app.UseMvcWithDefaultRoute();
-
+            app.UseRouting();
             
-            using (var scope = app.ApplicationServices.CreateScope())
+            app.UseMvc(routes =>
             {
-                var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContent>();
-                DbObjects.Initialize(context);
-            }
+                routes.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{id?}");
+                // routes.MapRoute(name: "categoryFilter", template: "Car/{action}/{category?}",
+                //     defaults: new { Controller = "Car", action = "List" });
+                routes.MapRoute(name: "CategoryFilter", template: "{controller=Cars}/{action}/{category?}"); //, defaults: new { Controller = "Cars", action = "List" }
+            });
+            // app.UseMvcWithDefaultRoute();
+            
+
+
+            using var scope = app.ApplicationServices.CreateScope();
+            var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContent>();
+            DbObjects.Initialize(context);
         }
     }
 }
